@@ -1,0 +1,45 @@
+.html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgdark {
+    /* background-color: #333333; */
+    background: url("/static/carbg.jpg") no-repeat fixed center;
+}
+
+.maincard {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    background-color: goldenrod;
+}
+
+.nav-pills .nav-link {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn {
+    background-color: goldenrod;
+    font-weight: 500;
+    width: 50%;
+}
+
+.btn:hover {
+    font-weight: 500;
+    font-size: 16px;
+    transform: scale(1.1);
+}
+
+label {
+    font-family: 'Source Sans Pro', sans-serif;
+}
